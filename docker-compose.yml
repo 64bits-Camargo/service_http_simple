@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+
+  mateus_service:
+    image: mateuscamargo/mateus_service
+    environment:
+      PORT: 8081
+      CONTENT: "<h1>Service A</h1>"
+    ports:
+      - 8081:8081
